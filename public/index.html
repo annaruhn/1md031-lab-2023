@@ -1,1 +1,117 @@
-Hello world
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Burger ordering</title>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <header>
+            <h1>Välkommen till &Bscr;urger Online</h1>
+        </header>
+        <main>
+            <section>
+                <h2>Select burger</h2> 
+                    <p> This is where you execute burger selection</p>
+                     
+                        <div style="display: inline-block;"> <h3>The flaming hot burger</h3>
+                        <img src="https://lh3.googleusercontent.com/mArWBpFB5Pq9-46vlSHHDrro1DMOOF7LrfHnhkQv23cJPwOco7LHgk6H19XHYn9dn4y6DBHrKCagVePkyF8JEpY=s1200" alt="HotBurger" title="HotBurger" style= "width: 200px;">
+                        <ul>
+                            <li>495 kcal</li>
+                            <li>4/5 chillies</li>
+                            <li>Contains gluten</li>
+                            <li>Contains lactose</li>
+                        </ul>
+                        </div>
+
+                        <div style="display: inline-block;"> <h3>The mushy Mushroom burger</h3>
+                            <img src="https://www.simplejoy.com/wp-content/uploads/2022/05/portobello-mushroom-burger-1365x2048.jpg" alt="MushroomBurger" title="MushroomBurger" style= "width: 200px;">
+                            <ul>
+                                <li>395 kcal</li>
+                                <li>Vegan</li>
+                                <li>Contains soy</li>
+                                <li>Contains gluten</li>
+                            </ul>
+                            </div>
+
+                            <div style="display: inline-block;"> <h3>The Dessert Burger</h3>
+                                <img src="https://www.mashed.com/img/gallery/unusual-dessert-combinations-you-need-to-try-at-least-once/intro-1661283110.webp" alt="DessertBurger" title="TheDessertBurger" style= "width: 200px;">
+                                <ul>
+                                    <li>2195 kcal</li>
+                                    <li>For the sweet tooth</li>
+                                    <li>Contains gluten</li>
+                                    <li>Contains lactose</li>
+                                </ul>
+                                </div>
+            </section>
+            <section id = "contact">
+                <h2>Customer information</h2>
+                    <p> This is where you provide necessary information</p>
+                        <br />
+                        <h3>Delivery information:</h3>
+                            <form>
+                                <fieldset>
+                        <p>
+                            <label for="name">Full name</label><br>
+                            <input type="text" id="name" name="name_data" required="required" placeholder="First- and last name">
+                        </p>
+                        <p>
+                            <label for="email">E-mail</label><br>
+                            <input type="email" id="email" name="email_data" required="required" placeholder="E-mail adress">
+                        </p>
+                        <p>
+                            <label for="street">Street</label><br>
+                            <input type="text" id="street" name="street_data" required="required" placeholder="Street">
+                        </p>
+                        <p>
+                            <label for="house">House</label><br>
+                            <input type="number" id="house" name="house_data" required="required" placeholder="House Number">
+                        </p>
+                                
+                        <br>
+                                </fieldset>
+                                <br>
+                                <fieldset>
+                            <p>
+                                <label for="payment">Payment options</label><be>
+                                <select id="payment" name="payment_data">
+                                    <option selected="selected">Credit card</option>
+                                    <option>Swish</option>
+                                    <option>Cash</option>
+                                    <option>Faktura</option>
+                                    <option>Bitcoin</option>
+                                </select>
+                             </p>
+                                </fieldset>
+                                <br>
+                                <fieldset>
+                             <p>
+                                <label for="gender">Gender</label><br>
+                               
+                                <input type="radio" id="dude" name="gender_data" checked="checked" value = "Dude">
+                                <label for="dude">Dude</label><br>
+
+                                <input type="radio" id="girl" name="gender_data" value = "Girl">
+                                <label for="dude">Girl</label><br>
+
+                                <input type="radio" id="non_binary" name="gender_data" value = "Non-binary">
+                                <label for="dude">Non-binary</label><br>
+
+                                <input type="radio" id="notYourBusiness" name="gender_data" value = "Not your business">
+                                <label for="dude">Not your business</label><br>
+                            </p>
+                                </fieldset>
+                            </form>
+                        
+            </section>
+            <br>
+            <button name = "placeOrder" type="submit">
+                <img src="https://nativeideals.com/wp-content/uploads/2014/02/Order-Button.jpg"style= "width: 200px;">
+              </button>
+              <br>
+        </main>  
+        <hr> 
+        <footer>
+            &copy; 2023
+        </footer>    
+    </body>
+</html>
