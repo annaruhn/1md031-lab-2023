@@ -4,12 +4,13 @@
         <title>Burger ordering</title>
         <meta charset="utf-8"/>
     </head>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <body>
         <header>
             <h1>Välkommen till &Bscr;urger Online</h1>
         </header>
         <main>
-            <section>
+            <section id = "burger">
                 <h2>Select burger</h2> 
                     <p> This is where you execute burger selection</p>
                      
@@ -18,8 +19,10 @@
                         <ul>
                             <li>495 kcal</li>
                             <li>4/5 chillies</li>
+                            <section class = "ingredient">
                             <li>Contains gluten</li>
                             <li>Contains lactose</li>
+                            </section>
                         </ul>
                         </div>
 
@@ -28,8 +31,10 @@
                             <ul>
                                 <li>395 kcal</li>
                                 <li>Vegan</li>
+                                <section class = "ingredient">
                                 <li>Contains soy</li>
                                 <li>Contains gluten</li>
+                                </section>
                             </ul>
                             </div>
 
@@ -38,8 +43,10 @@
                                 <ul>
                                     <li>2195 kcal</li>
                                     <li>For the sweet tooth</li>
+                                    <section class = "ingredient">
                                     <li>Contains gluten</li>
                                     <li>Contains lactose</li>
+                                    </section>
                                 </ul>
                                 </div>
             </section>
@@ -103,11 +110,12 @@
                             </form>
                         
             </section>
-            <br>
+
             <button name = "placeOrder" type="submit">
                 <img src="https://nativeideals.com/wp-content/uploads/2014/02/Order-Button.jpg"style= "width: 200px;">
+                Order here
               </button>
-              <br>
+
         </main>  
         <hr> 
         <footer>
