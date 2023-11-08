@@ -1,0 +1,91 @@
+/* så här kommenterar man */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+ }
+
+ .ingredient {
+    font-weight: bold;
+}
+
+#burger {
+    background-color: #000000;
+    color: #ffffff;
+    margin: 1em 2em;
+    padding: 2em;
+    border: 2px dashed #ffffff;
+ }
+
+section h2 {
+font-size: 2em;
+margin: auto auto 0.5em 2em;
+
+
+ }
+
+ section p, h3 {
+    font-size: 1em;
+    margin: auto auto 1em 4em;
+     }
+
+#contact {
+    color: #000000;
+    margin: 2em;
+    padding: 2em;
+    border: 2px dashed #000000;
+}
+button:hover {
+    background-color: rgb(16, 142, 52);
+    cursor: pointer;
+ }
+
+ section div {
+    padding: 2em;
+    margin: 1em;
+    background-color:rgb(45, 16, 142)
+     }
+
+ button {
+margin: 1em 2em 3em;
+}
+
+.TheHeader {
+    margin: 0 2em;
+    height: 19em;
+    overflow: hidden;
+    }
+
+.TheHeader img {
+    opacity: 0.5;
+    width: 100%;
+    height: auto;
+    }
+
+.TheHeader h1 {
+    position: absolute;
+    padding: 2em;
+    font-size: 3em;
+    }
+
+.wrapper {
+     display: grid;
+     grid-gap: 15px;
+     grid-template-columns: 33% 33% 32%;
+     background-color: #000000;
+ }
+
+ #burger div h3{
+     margin: 0 auto 0.5em auto;
+     font-size: 1.5em; 
+     font-weight: bold;
+}
+
+#burger div li{
+    margin: 0.5em auto auto 1em;
+    font-size: 1em;
+    list-style-type: disc;
+}
+
+ footer {
+    margin: 2em auto 1em 2em;
+    }
