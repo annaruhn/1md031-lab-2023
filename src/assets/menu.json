@@ -1,0 +1,24 @@
+
+[
+    {
+      "name": "The Flaming Hot Burger",
+      "kCal": 495,
+      "lactose": true,
+      "gluten": true,
+      "img": "https://lh3.googleusercontent.com/mArWBpFB5Pq9-46vlSHHDrro1DMOOF7LrfHnhkQv23cJPwOco7LHgk6H19XHYn9dn4y6DBHrKCagVePkyF8JEpY=s1200"
+    },
+    {
+        "name": "The Mushy Mushroom Burger",
+        "kCal": 395,
+        "lactose": false,
+        "gluten": true,
+        "img": "https://images.hola.com/us/images/0277-159d7d0b1a37-90cef55114f9-1000/horizontal-1200/portobello-mushroom-burger.jpg"
+      },
+      {
+        "name": "The Dessert Burger",
+        "kCal": 2195,
+        "lactose": true,
+        "gluten": true,
+        "img": "https://www.mashed.com/img/gallery/unusual-dessert-combinations-you-need-to-try-at-least-once/intro-1661283110.webp"
+      }
+  ]
