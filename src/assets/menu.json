@@ -5,20 +5,23 @@
       "kCal": 495,
       "lactose": true,
       "gluten": true,
-      "img": "https://lh3.googleusercontent.com/mArWBpFB5Pq9-46vlSHHDrro1DMOOF7LrfHnhkQv23cJPwOco7LHgk6H19XHYn9dn4y6DBHrKCagVePkyF8JEpY=s1200"
+      "chillies": 5, 
+      "img": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fd6d4f65-f0ee-4782-9f9e-bcb05a3bdf6a/dg9ch1k-19d6d0d3-bc50-41e3-a960-b453802bc72c.png/v1/fill/w_894,h_894,q_70,strp/explosive_burger_by_gambz1_dg9ch1k-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcL2ZkNmQ0ZjY1LWYwZWUtNDc4Mi05ZjllLWJjYjA1YTNiZGY2YVwvZGc5Y2gxay0xOWQ2ZDBkMy1iYzUwLTQxZTMtYTk2MC1iNDUzODAyYmM3MmMucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.sAaXAEyOS2cEJDYkTrXVW5CL5JrBjNcoqzvMCvuXp2o"
     },
     {
         "name": "The Mushy Mushroom Burger",
         "kCal": 395,
         "lactose": false,
         "gluten": true,
-        "img": "https://images.hola.com/us/images/0277-159d7d0b1a37-90cef55114f9-1000/horizontal-1200/portobello-mushroom-burger.jpg"
+        "chillies": 2, 
+        "img": "https://www.eatingwell.com/thmb/K5hmRNWqAY25Ri6EOt_j9gI9fsU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/6683928-bdf4f2c0800d4f32837b36403679b603.jpg"
       },
       {
         "name": "The Dessert Burger",
         "kCal": 2195,
         "lactose": true,
         "gluten": true,
-        "img": "https://www.mashed.com/img/gallery/unusual-dessert-combinations-you-need-to-try-at-least-once/intro-1661283110.webp"
+        "chillies": 0, 
+        "img": "https://scenenow.com/Content/editor_api/images/a7dfb2d7f83153e1926972c5941794a9%20(1)-4b7528eb-c163-42f4-b1ae-1280536ec1a6-455b7ba1-8593-4399-9233-e25a54c4a2c2-e68c6958-4b5c-41af-af6c-abe4e36c6be9.jpg"
       }
   ]

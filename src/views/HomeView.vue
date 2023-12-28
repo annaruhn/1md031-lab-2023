@@ -51,8 +51,27 @@
 
                              
                                 </fieldset>
+                              
+                           
+                                <br>
+                                
+                                <fieldset>
+                                  <p>
+                                  <label for="map">Please indicate point of delivery: </label>
+                                  <br>
+                                 </p>
+                                  <div class = smallerDiv v-bind:style="{ position: absolute}">
+                                  <div id="dots" v-on:click="setLocation" v-bind:style="{ background: 'url(' + require('../../public/img/polacks.jpg')+ ')' }">
+                                  <div v-bind:style="{ left: location.x + 'px', 
+                                    top: location.y + 'px'}">
+                                    T
+                                  </div>
+                                  </div>
+                                  </div>
+                                </fieldset>
                                 
                                 <br>
+           
                                 <fieldset>
                              <p>
                                 <label for="gender">Gender</label><br>
@@ -70,19 +89,13 @@
                                 <label for="dude">Not your business</label><br>
                             </p>
                                 </fieldset>
-                            </form>
-                        
+                              </form>
+
+
             </section>
-<fieldset>
-<div class = smallerDiv v-bind:style="{ position:absolute }">
-      <div id="dots" v-on:click="setLocation" v-bind:style="{ background: 'url(' + require('../../public/img/polacks.jpg')+ ')' }">
-          <div v-bind:style="{ left: location.x + 'px', 
-                               top: location.y + 'px'}">
-            T
-          </div>
-          </div>
-</div>
-</fieldset>
+                        
+            
+
             <button v-on:click = "placeOrder(key)" type="submit">
                 Order here
                 <img src="https://cdn-icons-png.flaticon.com/512/2933/2933054.png?ga=GA1.1.1227129730.1698922326" style= "width: 20px;">
@@ -210,12 +223,6 @@ button:hover {
     cursor: pointer;
  }
 
- section div {
-    padding: 2em;
-    margin: 1em;
-    background-color:rgb(45, 16, 142)
-     }
-
  button {
     margin: 1em 2em 3em;
 }
@@ -245,7 +252,7 @@ margin: 1em 0 0 0;
 .wrapper {
      display: grid;
      grid-gap: 15px;
-     grid-template-columns: 33% 33% 32%;
+     grid-template-columns: 33% 33% 33%;
      background-color: #000000;
  }
 

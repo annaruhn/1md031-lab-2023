@@ -1,10 +1,11 @@
 <template>
 <div>
   <h3>{{ burger.name }}</h3>
+  <br>
   <img v-bind:src="burger.img" alt="BurgerPic" title="ImageOfBurger" style="width: 100%;">
   <ul>
     <li>{{ burger.kCal }} kCal</li>
-    <li>4/5 chillies</li>
+    <li v-if = "burger.chillies"><img v-for="index in burger.chillies" :key="index" src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Hot_chili_red_pepper_icon_emote.png" alt="Chilies" title="ImageOfChillies" style="width: 7%;"></li>
   </ul>
   <section class="ingredient">
     <ul>
@@ -13,13 +14,15 @@
       <li v-if = "burger.gluten"> Contains gluten </li>
     </ul>
   </section>
+  <br>
   <button v-on:click = "increaseAmount(key)" type="number">
-                Add one
+                +
               </button>
+              <span>Quantity: {{ amountOrdered }}</span>
    <button v-on:click = "decreaseAmount(key)" type="number">
-                Delete one
+                -
               </button>
-  <p>Quantity: {{ amountOrdered }}</p>
+ 
 </div>
   </template>
   
@@ -64,7 +67,7 @@ methods: {
 
  #burger div h3{
      margin: 0 auto 0.5em auto;
-     font-size: 1.5em; 
+     font-size: 2em; 
      font-weight: bold;
 }
 
